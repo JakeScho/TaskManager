@@ -28,19 +28,33 @@ cd /path/to/local/repo/server/
 npm install
 ```
 
-### 4. Install React package dependancies
+### 4. Set up .env files
+```
+cd /path/to/local/repo/server/
+cp .env.example .env
+nano .env
+```
+
+### 5. Install React package dependancies
 ```
 cd /path/to/local/repo/client/
 npm install
 ```
 
-### 5. Start Node server
+### 6. Set up .env files
+```
+cd /path/to/local/repo/client/
+cp .env.example .env
+nano .env
+```
+
+### 7. Start Node server
 ```
 cd /path/to/local/repo/server/
 node index.js
 ```
 
-### 6. Start Node server
+### 8. Start Node server
 ```
 cd /path/to/local/repo/client/
 npm start
